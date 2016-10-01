@@ -1,0 +1,6 @@
+---
+published: true
+title: 10 New Things
+layout: post
+---
+So I watched a video 
