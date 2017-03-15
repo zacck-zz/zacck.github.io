@@ -1,0 +1,12 @@
+{
+  "name": "zacck.github.io",
+  "version": "1.0.0",
+  "description": "my blaaaag",
+  "main": "index.js",
+  "repository": "https://github.com/zacck/zacck.github.io.git",
+  "author": "zacck <coderv63@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "jekyll-posts-generator": "^0.0.5"
+  }
+}
