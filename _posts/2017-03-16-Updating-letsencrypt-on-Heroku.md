@@ -1,7 +1,7 @@
 ---
   layout: post
   title: Updating letsencrypt on Heroku
-  tags: heroku ssl letsencrypt certbot
+  tags: [heroku,ssl,letsencrypt,certbot]
   categories:
 ---
 
