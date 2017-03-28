@@ -9,13 +9,13 @@
     - async
 ---
 
-Hi There I found this new thing!
+Hi There I found this thing!
 
 **Async Await**
 
-for when you need to wait for things to happen
+For when you need to wait for things to happen
 
-* Things to note this currently needs to run in a browser. You can use some other packages in nodejs to achieve this notably such as es6 Generators
+* Things to note this currently needs to run in a browser. You can use some other packages in nodejs to achieve this also things such as es6 Generators
 
 **I**. Lets make a new file called `await.js`. Lets proceed to add the following code
 ```javascript
