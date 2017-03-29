@@ -9,13 +9,13 @@
 
 Lets talk about writing custom middleware in this case specifically for [Express JS](https://expressjs.com/).
 
-Please note we need to install expressjs on your node project
+Please note we shall assume you have expressjs installed on your node project
 
 I use express alot I use it to serve most if not all of my nodejs applications and If you use it this much you must have encountred the term `middleware`.
 
-What is middleware: middleware is a general term for software that serves to "glue together" separate, often complex and already existing, programs.
+What is middleware: middleware is a general term for software that serves to **"glue together"** separate, often complex and already existing, programs.
 
-Lets say we have a stock express app that tells us 'Hello' when we load the page. Yeah Generic much. `app.js`could look as follows.
+Lets say we have a stock express app that tells us 'Hello' when we load the page. Yeah Generic much ? `app.js`could look as follows.
 
 ```javascript
 var express = require('express');
