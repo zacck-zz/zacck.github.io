@@ -15,7 +15,7 @@ I use express alot I use it to serve most if not all of my nodejs applications a
 
 What is middleware: middleware is a general term for software that serves to **"glue together"** separate, often complex and already existing, programs.
 
-Lets say we have a stock express app that tells us 'Hello' when we load the page. Yeah Generic much ? `app.js`could look as follows.
+Lets say we have a stock express app that tells us 'Hello' when we load the page. Yeah Generic much? `app.js`could look as follows.
 
 ```javascript
 var express = require('express');
