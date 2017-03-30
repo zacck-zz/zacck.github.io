@@ -36,6 +36,7 @@ console.log(getData);
 What is happening here?
 
 We create a variable with our fetch call, you don't have to do this.
+
 `fetch` takes on mandatory parameter this is the path to the resource you want and returns a [promise](https://zacck.github.io/node/2017/03/28/Send-Promises-for-Weather.html).
 
  1. We can deal with it as a normal promise
