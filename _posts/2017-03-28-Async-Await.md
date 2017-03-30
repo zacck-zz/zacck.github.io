@@ -46,4 +46,4 @@ And thereafter we go back to normal operations.
 
 Queries? Suggestions? PR?
 
-Back To Code! :stuck_out_tongue_closed_eyes:
+Back To Code! &#x1f61d;
