@@ -41,7 +41,7 @@ We create a variable with our fetch call, you don't have to do this.
 
  1. We can deal with it as a normal promise
  2. We define our first `then` here we collect the data and watch for any issues.
- 3. After collecting and checking we call `then` again isn't this a little chain? here we use the result from the `fetch` promise.
+ 3. After collecting and checking we call `then` again isn't this a little chain? Here we use the result from the `fetch` promise.
  4. We add a `catch` call to let us know if any issue occured during our calls.
 
 Queries? Suggestions? PR?
