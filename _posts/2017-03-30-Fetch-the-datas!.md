@@ -46,4 +46,4 @@ We create a variable with our fetch call, you don't have to do this.
 
 Queries? Suggestions? PR?
 
-Back To Code!:P
+Back To Code! :stuck_out_tongue_closed_eyes:

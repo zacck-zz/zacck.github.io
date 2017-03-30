@@ -120,4 +120,4 @@ In here we can see we are using the yargs package to allow a command line flag `
 
 For any questions or suggestions add some issues or [tweet](https://twitter.com/noob_developer) me!
 
-Back to code :D
+Back to code :stuck_out_tongue_closed_eyes:

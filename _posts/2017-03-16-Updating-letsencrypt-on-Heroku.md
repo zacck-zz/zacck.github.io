@@ -67,3 +67,5 @@ At this point you can press enter and letsencrypt will show you a congratulation
 Anothet 90 Days!....
 
 I should likely outmate this using timers refer @mralanorth
+
+:stuck_out_tongue_closed_eyes:
