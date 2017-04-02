@@ -26,7 +26,7 @@ Please note render can only return one root element/doc or it will throw an erro
 Here you can see I simply define a `div` that contains my element which we shall later update to show the data.
 
 `constructor`
-This method is called before a component is mounted. Consider using this method for initialization of your component and the elements within it. You can also set your initial state here. I intend to keep track if the remaining seconds in my application so I shall set up a state element for it, Would also be nice to show a message when the countdown is over
+This method is called before a component is mounted. Consider using this method for initialization of your component and the elements within it. You can also set your initial state here. I intend to keep track of the remaining seconds in my application so I shall set up a state element for that it would also be nice to show a message when the countdown is over.
 
 ```javascript
 constructor(props) {
@@ -39,7 +39,7 @@ constructor(props) {
     };
   };
 ```
-The constructor takes in `props` provided to the Component. Ensure to always call super here or else `this.props` will be undefined! As you can see here I initialize two state elements that I will use later `state` Is a component property and you can manipulate it in various ways.
+The constructor takes in `props` provided to the Component. Ensure to always call super here or else `this.props` will be undefined! As you can see here I initialize two state elements that I will use later. `state` Is a component property and you can manipulate it in various ways.
 
 `componentDidMount`
 This method is called right after a component is mounted. It is advisable to do long computation work here e.g stuff such as network requests and resource manipulation. Consider our timer
