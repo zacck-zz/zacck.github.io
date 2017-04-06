@@ -49,7 +49,7 @@ sampleTest =
 Ok so what's happening here?
 We first apply a description to the test we want to run, then we provide a list of tests to run. Our list contains one `test` and an expectation. This is then `piped` to [<|](http://elm-lang.org/docs/syntax#infix-operators) the results of an arrow function that asserts on the equality of a sum of two integers.
 
-In our project lets run our test runner
+In our project lets run our test runner - 
 
 `yarn test`
 
