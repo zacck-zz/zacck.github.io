@@ -22,6 +22,7 @@ Make a new file called `Sample`, make sure that the file name begins with an upp
 
 
 Lets start by creating a new module and exposing everything from it. We should likely only export what  we need.
+
 [Test](http://package.elm-lang.org/packages/elm-community/elm-test/latest/Test)
 
 In this test we Import the `Test` module (we will use this as a signature later).
