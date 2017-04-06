@@ -19,11 +19,11 @@ Lets begin by implementing a simple test that checks the sum of two numbers.
 Make a new file called `Sample`, at least make sure that the file name begins with an uppercase letter.
 
 To start with I chose to implement a very simple failing test,
-I start by creating a new module and exposing everything from it. I should likely only export what I need.
+Lets start by creating a new module and exposing everything from it. WE should likely only export what  we need.
 [Test](http://package.elm-lang.org/packages/elm-community/elm-test/latest/Test)
-In my test I Import the `Test`  module we will use this as a signature later.
+In this test we Import the `Test`  module we will use this as a signature later.
 [Exect](http://package.elm-lang.org/packages/elm-community/elm-test/latest/Expect)
-Then I import `Expect` we can use this module to do assertions later.
+Then we import `Expect` we can use this module to do assertions later.
 
 Awesome! Now lets make a function and give it a signature of `Test`
 
