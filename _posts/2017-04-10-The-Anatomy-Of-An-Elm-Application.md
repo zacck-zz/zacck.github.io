@@ -61,8 +61,8 @@ This is a rendering of your applications UI depending on your state. If you want
 -- the type signature Html Msg means this will produce messages tagged with Msg
 view : Model -> Html Msg
 view model =
---    div []
---        [ text model ]
+    div []
+        [ text model ]
     if model then
         div []
             [button [onClick Collapse] [text "Collapse"]
