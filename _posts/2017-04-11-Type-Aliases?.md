@@ -29,7 +29,7 @@ Let's walk through what is  happening here:
 
 `type alias Model`
 
-[type aliases](https://guide.elm-lang.org/types/type_aliases.html) are meant to make your annotations in code easier to read. Here we refer to the complex `state` of our Todo application as `Model` and whenever when we need to read from or write to our state we simply call the annotation `Model`.  
+[type aliases](https://guide.elm-lang.org/types/type_aliases.html) are meant to make your annotations in code easier to read. Here we refer to the complex `state` of our Todo application as `Model` and whenever when we need V CO9to read from or write to our state we simply call the annotation `Model`.  
 
 Essentially we are telling our code to replace `Model` with the actual complex structure of the the data whenever that annotation comes up in our code!
 When you create a type alias for some attribute, it also generates a record constructor for that attribute.
