@@ -15,7 +15,7 @@ Let's explore functional recursion by Implementing a reduce function. What do I 
 defmodule MyList do
     def sum(list) do
       # call do_sum with an initial sum of 0
-      do_sum(list, 0 )
+      do_sum(list, 0)
     end
 
     #private edge case
@@ -52,7 +52,7 @@ If this case is triggered we return the `res` passed to us.
 
 Otherwise the 3rd `do_sum` method will keep calling itself till it  has emptied it's contents.
 
-Have fun trying this out! 
+Have fun trying this out!
 
 Queries? Suggestions? PR?
 
