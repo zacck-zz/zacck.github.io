@@ -7,7 +7,8 @@
 
 **HELLO!**
 
-Let's explore functional recursion by Implementing a reduce function. What do I mean by a reduce function - A function that applies a function against an accumulated value and reduce them to a single value.
+Let's explore functional recursion by Implementing a reduce function. What do I mean by a reduce function -  a method executes a provided function for each value of the array / list.
+The return value of the function is stored in an accumulator (result/total). Which is then returned. 
 
 
 
@@ -18,13 +19,7 @@ defmodule MyList do
       do_sum(list, 0)
     end
 
-    #private edge case
-    defp do_sum([]) do
-      #incase we get an empty array return an atom
-      :empty
-    end
-
-    #an empty array and sum will trigger this edge canse
+    #an empty array and sum will trigger this edge case
     defp do_sum([], res) do
       # return sum
       res
