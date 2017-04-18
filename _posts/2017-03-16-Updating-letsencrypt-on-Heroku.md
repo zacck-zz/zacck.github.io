@@ -66,6 +66,6 @@ At this point you can press enter and letsencrypt will show you a congratulation
 
 Anothet 90 Days!....
 
-I should likely outmate this using timers refer @mralanorth
+I should likely Automate this using system timers refer @mralanorth
 
 &#x1f61d;
