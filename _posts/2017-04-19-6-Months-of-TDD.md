@@ -51,7 +51,7 @@ The reason for this is, in Unit testing you use assertions to check if a result 
 
 When you have to **assert** on your code to check whether it works it implies you have to have thought and figured a result before you write the test code.
 
-TDD forces you to consider the direction you are taking and why! This in turn clears out a lot of logic, syntax errors and dead code**.
+TDD forces you to consider the direction you are taking and why! This in turn clears out a lot of logic, syntax errors and dead code.
 
 Personally I find it take me 80% of my time to write a test and 20% to write the implementation of the code.
 
