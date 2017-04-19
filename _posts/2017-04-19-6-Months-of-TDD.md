@@ -16,12 +16,12 @@ If you are going to build a non trivial application it is very likely that your 
 Luckily this is not how TDD works, Yes one is expected to write Tests before they write implementation but you don't need to write all your tests before you start your implementation.
 Rather we are encouraged to;
 1. Write a unit test.
-2. Run and Watch this test fail ( this is an important step).
+2. Run and Watch this test fail (this is an important step).
 3. Write our implementation.
 4. Run our test
-5. Refactor(if necessary) ... repeat
+5. Refactor (if necessary) ... repeat
 
-Say We had to build a `Todo` Application. In Our Application we can have a list of Todo Items. Let's consider out TodoList the unit we are testing here.
+Say We had to build a `Todo` Application. In Our Application we can have a list of Todo Items. Let's consider our TodoList the unit we are testing here.
 
 We could have a few features for our TodoList.
 
