@@ -53,7 +53,7 @@ When you have to **assert** on your code to check whether it works it implies yo
 
 TDD forces you to consider the direction you are taking and why! This in turn clears out a lot of logic, syntax errors and dead code.
 
-Personally I find it take me 80% of my time to write a test and 20% to write the implementation of the code.
+Personally I find it takes 80% of my time to write a test and 20% to write the implementation of the code.
 
 
 Queries? Suggestions? PR?
