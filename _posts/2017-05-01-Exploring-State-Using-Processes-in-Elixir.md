@@ -7,12 +7,14 @@
 
 Interesting fact, This month one year ago I got to Cape Town. It's been a journey!
 
-Today I would like us to explore some `state` using `processes` specifically in Elixir. As we know Elixir is an immutable language where nothing is shared by default if we want to use and share some form of state(persisting some information, say a list of todos). We can use a number of solutions Processes, ETS(Erlang Term Storage). For today I would like to explore the processes solution.
+Today I would like us to explore some `state` using `processes` specifically in Elixir. As we know Elixir is an immutable language where nothing is shared by default if we want to use and share some form of state (persisting some information, say a list of todos). We can use a number of solutions e.g processes, ETS([Erlang Term Storage](http://elixir-lang.org/getting-started/mix-otp/ets.html)). For today I would like to explore the processes solution.
 
-First of what are [processes](), In Elixir all code runs in `processes` these are isolated long running operations that run concurrent to one another, They communicate by way of receiving messages from each other and replying. Processes the basis for concurrency in Elixir and they provide us with means of building fault tolerant distributed systems.
+**First off what are [processes](http://elixir-lang.org/getting-started/processes.html)?**
+
+ In Elixir all code runs in `processes` these are isolated long running operations that run concurrent to one another, They communicate by way of receiving messages from each other and replying. Processes are the basis for concurrency in Elixir and they provide us with means of building fault tolerant distributed systems.
 
 
-**OK How do we use processes**
+**Fair enough, How do we use processes ?**
 
 *Starting*
 
@@ -27,7 +29,7 @@ end
 
 Here we start a process that runs a function which then outputs to the console while this is a bit trivial to be using a process for we can see clearly what a process does its input and output. This will return the `pid` (Process Identifier) for the spawned process we can use this to interact with our new process.
 
-Note the above will start an independent process from the current on and if that crashes our current process will keep running. If you would like to stop the current process in case a spawned one fails one can always use `spawn_link`.
+Note the above will start an independent process from the current on and if that crashes our current process will keep running. If you would like to stop the current process in case a spawned one fails one can always use [spawn_link](http://elixir-lang.org/getting-started/processes.html#links).
 
 *Messaging*
 
@@ -45,7 +47,7 @@ send pid, :message
 Here we spawn a process which computes a long running functions and then we can call the `send` function with the `pid` for any running and attach some data as our message, All Elixir datatypes are accepted for messaging.
 
 
-*Handling Messages in Process**
+*Handling Messages in Process*
 
 In order to receive messages and work on them, all processes have a mailbox and implement a  `receive` macro to handle messages in the mailbox. Processes handle one message at a time.
 
@@ -68,13 +70,14 @@ receive do
   end
 ```
 
-Here we see our process will react differently to the message provided in the mailbox.
+Here we see our process will react differently to the message provided in the mailbox. We can also limit the amount of time a process waits for a message using the `after` clause.
 
 
+Ok so far we have explored how we can use processes to work in somewhat isolated spaces, we have explored how to send messages to processes and we have also explored how to illicit response from processes.
 
+With all this one can use processes say to maintain a list and add or remove items from it using messages.
 
-
-
+How would you use processes?
 
 Queries? Suggestions? PR?
 
